@@ -1,0 +1,35 @@
+.container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transform: translate(50%, 50%);
+    width: 1000px;
+    height: 1000px;
+    overflow: hidden;
+    animation: rotate 4s infinite linear;
+  }
+  .container :hover{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transform: translate(50%, 50%);
+    width: 1000px;
+    height: 1000px;
+    overflow: hidden;
+    animation: rotate 8s infinite linear;
+  }
+  @keyframes rotate {
+    0% {
+      transform: translate(50%, 50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(50%, 50%) rotate(90deg);
+    }
+  }
+  
+  .container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
